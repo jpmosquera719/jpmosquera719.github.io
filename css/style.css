@@ -1,0 +1,133 @@
+/* Variables: cambia aquí colores y fuente */
+:root {
+  --color-fondo: #ffffff;
+  --color-texto: #222222;
+  --color-secundario: #666666;
+  --color-acento: #0057b8;
+  --color-borde: #dddddd;
+  --fuente: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --ancho-max: 1000px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--fuente);
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+a { color: var(--color-acento); }
+
+/* Encabezado fijo */
+.encabezado {
+  position: sticky;
+  top: 0;
+  background: var(--color-fondo);
+  border-bottom: 1px solid var(--color-borde);
+  z-index: 10;
+}
+
+.menu {
+  max-width: var(--ancho-max);
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.menu a { text-decoration: none; }
+
+/* Secciones */
+main {
+  max-width: var(--ancho-max);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.seccion {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--color-borde);
+  scroll-margin-top: 3rem;
+}
+
+.titular { color: var(--color-secundario); }
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.boton {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-acento);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Filtros */
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.filtros button {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--color-borde);
+  border-radius: 4px;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.filtros button.activo {
+  border-color: var(--color-acento);
+  color: var(--color-acento);
+}
+
+/* Tarjetas de proyectos */
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.tarjeta {
+  border: 1px solid var(--color-borde);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.tarjeta h3 { margin: 0 0 0.25rem; }
+
+.tarjeta img {
+  width: 100%;
+  height: auto;
+}
+
+.tarjeta iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
+
+.meta {
+  color: var(--color-secundario);
+  font-size: 0.9rem;
+}
+
+/* Pie de página */
+.pie {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: var(--color-secundario);
+}

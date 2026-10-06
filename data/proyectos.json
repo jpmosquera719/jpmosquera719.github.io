@@ -1,0 +1,93 @@
+[
+  {
+    "id": "valvula-servomotor-piscicultura",
+    "titulo": "Válvula con servomotor para piscicultura",
+    "categoria": "Fusion 360",
+    "anio": "[PENDIENTE]",
+    "resumen": "[PENDIENTE]",
+    "herramientas": ["Fusion 360"],
+    "imagenes": [],
+    "video_youtube": "",
+    "pdf": "",
+    "enlace": "",
+    "destacado": false
+  },
+  {
+    "id": "protesis-biomecanica-p4h",
+    "titulo": "Prótesis biomecánica con P4H Bionics",
+    "categoria": "Fusion 360",
+    "anio": "[PENDIENTE]",
+    "resumen": "[PENDIENTE]",
+    "herramientas": ["Fusion 360"],
+    "imagenes": [],
+    "video_youtube": "",
+    "pdf": "",
+    "enlace": "",
+    "destacado": false
+  },
+  {
+    "id": "parque-entrenamiento-huerta",
+    "titulo": "Parque de entrenamiento y huerta escolar",
+    "categoria": "Blender 3D",
+    "anio": "[PENDIENTE]",
+    "resumen": "[PENDIENTE]",
+    "herramientas": ["Blender"],
+    "imagenes": [],
+    "video_youtube": "",
+    "pdf": "",
+    "enlace": "",
+    "destacado": false
+  },
+  {
+    "id": "video-intro-clioscopio",
+    "titulo": "Video de introducción para Clioscopio",
+    "categoria": "Blender 3D",
+    "anio": "[PENDIENTE]",
+    "resumen": "[PENDIENTE]",
+    "herramientas": ["Blender"],
+    "imagenes": [],
+    "video_youtube": "",
+    "pdf": "",
+    "enlace": "",
+    "destacado": false
+  },
+  {
+    "id": "contenido-holografico-holomedios",
+    "titulo": "Contenido holográfico para Holomedios",
+    "categoria": "Blender 3D",
+    "anio": "[PENDIENTE]",
+    "resumen": "[PENDIENTE]",
+    "herramientas": ["Blender"],
+    "imagenes": [],
+    "video_youtube": "",
+    "pdf": "",
+    "enlace": "",
+    "destacado": false
+  },
+  {
+    "id": "hidroponia-automatizada",
+    "titulo": "Sistema de hidroponía automatizada",
+    "categoria": "Electronica e IoT",
+    "anio": "[PENDIENTE]",
+    "resumen": "[PENDIENTE]",
+    "herramientas": [],
+    "imagenes": [],
+    "video_youtube": "",
+    "pdf": "",
+    "enlace": "",
+    "destacado": false
+  },
+  {
+    "id": "trabajo-grado-salsa-cabaret",
+    "titulo": "Trabajo de grado sobre salsa cabaret",
+    "categoria": "Datos y estadistica",
+    "anio": "[PENDIENTE]",
+    "resumen": "[PENDIENTE]",
+    "herramientas": [],
+    "imagenes": [],
+    "video_youtube": "",
+    "pdf": "",
+    "enlace": "",
+    "destacado": false
+  }
+]
